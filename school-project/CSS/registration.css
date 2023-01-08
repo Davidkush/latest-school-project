@@ -2,7 +2,7 @@ body{
     margin: auto;
     padding: 0em;
     zoom: normal;
-    background-image: url("/resources/background.jpg");
+    background-image: url("/school-project/resources/background.jpg");
     scroll-behavior: smooth;
    
 }
