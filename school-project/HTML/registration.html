@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/registration.css">
+    <title>Haiti Bank International</title>
+</head>
+<body>
+    <div>
+        <form action="/php/registration.php" method="POST">
+            <h1 id="registration">Registration</h1>
+            <div id="input_form">
+                <label for="name">Full names</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="birth">Year of birth</label><br>
+                <input type="date" id="birth" name="birth"><br>
+    
+                <label for="counties">Current residential county</label><br>
+                <select name="counties" id="counties">
+                  <option value="Nairobi">Nairobi</option>
+                  <option value="Kiambu">Kiambu</option>
+                  <option value="Mombasa">Mombasa</option>
+                  <option value="Garissa">Garissa</option>
+                  <option value="Nakuru">Nakuru</option>
+                  <option value="Kisumu">Kisumu</option>
+                  <option value="Taita Taveta">Taita Taveta</option>
+                  <option value="Machakos">Machakos</option>
+                </select><br>            
+                <label for="phone">Phone number</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="+254"><br>
+                
+                <div id="checkbox_gender">
+
+                <label id="gender" >Gender:</label>
+                <div id="checkbox">
+                    <label for="male">Male</label>
+                    <input type="checkbox" id="male" name="gender" value="Male">
+                    <label for="female">Female</label>
+                    <input type="checkbox" id="female" name="gender" value="Female">
+                    <label for="others">Others</label>
+                    <input type="checkbox" id="others" name="gender" value="others">
+        
+                </div>
+                    
+                
+               
+                </div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password"><br>
+                
+                <label for="confirm">Confirm password</label><br>
+                <input type="password" id="confirm" name="confirm"><br>
+    
+                <input id="register" type="submit" value="Register">
+                
+                <div>
+                    <a href="error.html"id="report"><p>Have issues registering</p></a>
+                </div>
+    
+            </div>
+        </form>
+    </div>
+</body>
+</html>

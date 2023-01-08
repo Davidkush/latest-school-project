@@ -1,0 +1,12 @@
+Registration -> completed
+Login -> completed
+Homepage
+//Slidshow to show services of the bank
+1. loan services
+2. Compound intrest saving
+3. Asset financing
+4. Secure stock investment and management
+registration issues
+sql database
+php verification
+password view;

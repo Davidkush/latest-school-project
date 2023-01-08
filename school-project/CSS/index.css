@@ -1,0 +1,78 @@
+body{
+    margin:auto;
+    padding: 0em;
+    background-image:url("/resources/background.jpg");
+    scroll-behavior: smooth;
+    
+}
+
+form{
+    margin: 0rem;
+    margin-top: 164px;
+    margin-left: 54px;
+    margin-right: 54px;
+    padding-left: 32pc;
+    padding-right: 32pc;
+    background-color: cadetblue;
+    max-height:fit-content;
+    border-radius:25px;
+}
+label{
+    font-style:initial;
+    font-size: 26px;
+    align-items: center;
+    
+}
+input{
+    input-security:inherit;
+    font-size:22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:unset;
+    border-radius: 10px;
+    
+}
+#eye_password{
+    
+}
+#Login{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 44px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+#login-form{
+    margin-top: -18px;
+}
+#login{
+font-size: 20px;
+margin-left: 60px;
+margin-top: 14px;
+border-radius: 10px;
+color: grey;
+background-color: aqua;
+}
+
+#info{
+    font-size: 18px;
+    color: blueviolet;
+    appearance: none;   
+    margin-top: -1pc;
+    
+}
+#link_register{
+    font-size: 18px;
+    color:whitesmoke;
+    appearance: none;
+}
+#or{
+    
+}
+
+#link_forgot{
+    font-size: 18px;
+    color: whitesmoke;
+    appearance: none;
+   
+    
+}
